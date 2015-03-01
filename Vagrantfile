@@ -1,7 +1,9 @@
 Vagrant.configure(2) do |config|
   
   config.vm.box = "buonzz/bamp"
-  
+
+  config.ssh.private_key_path = "./bamp.key"
+
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
   
