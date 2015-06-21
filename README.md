@@ -28,21 +28,21 @@ Add the following line in your local hosts  file
 
 ```
 
-	192.168.33.60 devtools.buonzz.com
+	192.168.33.60 bamp.dev
 ```
 
 ### Usage
 
-Visit  http://devtools.buonzz.com to get started.
+Visit  http://bamp.dev to get started.
 
 
 
-You can inspect the database by going to  http://devtools.buonzz.com/phpmyadmin
+You can inspect the database by going to  http://bamp.dev/phpmyadmin
 
 username: root
 password: buonzz
 
-You can also access the MongoDB via http://devtools.buonzz.com/rockmongo
+You can also access the MongoDB via http://bamp.dev/rockmongo
 
 username: admin
 password: admin
