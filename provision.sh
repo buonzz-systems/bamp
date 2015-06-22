@@ -14,3 +14,5 @@ sudo composer self-update
 
 #disable the /HOME/USERNAME/.NANO_HISTORY: PERMISSION DENIED
 sudo rm .nano_history
+
+mkdir /vagrant/sites
