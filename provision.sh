@@ -1,6 +1,12 @@
 
+# php extension for memcache enabled
+sudo apt-get install php5-memcached -y
+
 # fix PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
 sudo echo ";extension=memcache.so" > /etc/php5/cli/conf.d/memcache.ini
+
+# restart php
+sudo service php5-fpm restart
 
 # update composer to latest version
 echo "Updating Composer to latest version"
