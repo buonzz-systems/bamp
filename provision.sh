@@ -11,3 +11,6 @@ sudo service php5-fpm restart
 # update composer to latest version
 echo "Updating Composer to latest version"
 sudo composer self-update
+
+#disable the /HOME/USERNAME/.NANO_HISTORY: PERMISSION DENIED
+sudo rm .nano_history
