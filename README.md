@@ -63,3 +63,10 @@ you can either use sudo or "sudo -i" to execute commands as root
 vagrant ssh
 sudo sh /vagrant/installers/setup_redis.sh
 ```
+
+#### Install Oracle Java
+
+```
+vagrant ssh
+sudo sh /vagrant/installers/setup_oracle_java.sh
+```
