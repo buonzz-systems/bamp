@@ -55,3 +55,11 @@ The VM basically creates a virtual private LAN IP pointing into 192.168.33.60
 #### Logging in as root
 
 you can either use sudo or "sudo -i" to execute commands as root
+
+
+#### Install Redis
+
+```
+vagrant ssh
+sudo sh /vagrant/installers/setup_redis.sh
+```
