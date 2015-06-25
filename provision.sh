@@ -15,4 +15,11 @@ sudo composer self-update
 #disable the /HOME/USERNAME/.NANO_HISTORY: PERMISSION DENIED
 sudo rm .nano_history
 
-mkdir /vagrant/sites
+
+# create the sites project
+SITES_FOLDER="/vagrant/sites" 
+
+if [ ! -d "$SITES_FOLDER" ]; then
+  mkdir $SITES_FOLDER
+fi
+
