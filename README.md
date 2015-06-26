@@ -70,3 +70,18 @@ sudo sh /vagrant/installers/setup_redis.sh
 vagrant ssh
 sudo sh /vagrant/installers/setup_oracle_java.sh
 ```
+
+#### Install Tomcat
+
+Note: Be sure to install Java first before executing the tomcat installer
+
+
+```
+vagrant ssh
+sudo sh /vagrant/installers/setup_tomcat.sh
+```
+
+Visit http://bamp.dev:8080/manager/html
+to manage the applications. Admin access are:
+username: admin
+password: admin
