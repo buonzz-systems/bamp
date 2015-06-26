@@ -6,4 +6,11 @@ echo debconf shared/accepted-oracle-license-v1-1 select true | \
 sudo debconf-set-selections
 echo debconf shared/accepted-oracle-license-v1-1 seen true | \
 sudo debconf-set-selections
-sudo apt-get install oracle-java7-installer 
+sudo apt-get install oracle-java7-installer  -y
+
+#setup java_home environment var and save it in bash
+
+export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:bin/javac::")
+
+# append it in the global environment 
+echo 'export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:bin/javac::")' | sudo tee  /etc/profile.d/bamp1.sh 
