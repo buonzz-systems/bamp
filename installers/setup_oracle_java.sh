@@ -15,4 +15,4 @@ JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:bin/javac::")
 echo 'JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:bin/javac::")' | sudo tee  /etc/profile.d/bamp1.sh
 
 # restart vm for environment vars to take effect
-sudo shutdown -r now
+sudo shutdown -h now
