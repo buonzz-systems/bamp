@@ -111,3 +111,12 @@ Admin access are:
 username: admin
 
 password: admin
+
+
+#### Install Ruby
+
+```
+setup_ruby
+```
+
+the script will install RVM first then install Ruby itself.

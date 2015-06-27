@@ -43,3 +43,6 @@ sudo chmod +x /usr/local/bin/setup_redis
 
 sudo cp /vagrant/installers/setup_tomcat.sh /usr/local/bin/setup_tomcat
 sudo chmod +x /usr/local/bin/setup_tomcat
+
+sudo cp /vagrant/installers/setup_ruby.sh /usr/local/bin/setup_ruby
+sudo chmod +x /usr/local/bin/setup_ruby
