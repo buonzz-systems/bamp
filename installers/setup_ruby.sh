@@ -1,4 +1,7 @@
 #!/bin/bash
 
-sudo gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-\curl -sSL https://get.rvm.io | sudo bash -s stable --ruby
+sudo apt-get update
+
+sudo apt-get install ruby1.9.1 ruby1.9.1-dev \
+  rubygems1.9.1 irb1.9.1 ri1.9.1 rdoc1.9.1 \
+  build-essential libopenssl-ruby1.9.1 libssl-dev zlib1g-dev -y

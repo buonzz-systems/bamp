@@ -49,3 +49,6 @@ sudo chmod +x /usr/local/bin/setup_ruby
 
 sudo cp /vagrant/installers/setup_nodejs.sh /usr/local/bin/setup_nodejs
 sudo chmod +x /usr/local/bin/setup_nodejs
+
+sudo cp /vagrant/installers/setup_jekyll.sh /usr/local/bin/setup_jekyll
+sudo chmod +x /usr/local/bin/setup_jekyll
