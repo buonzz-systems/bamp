@@ -136,13 +136,21 @@ setup_jekyll
 Make sure you install Ruby and NodeJS first before attempting to install jekyll
 
 
-#### Install Bower
+#### Install Front-End Tools
+
+Front-end tools are collection of tools for managing JavaScript and CSS Assets.
+
+* Bower
+* GruntJS
+* Yeoman
+* SASS
+* CofeeScript
 
 ```
-setup_bower
+setup_frontend_tools
 ```
 
-Make sure you install  NodeJS first before attempting to install.
+Make sure you install  NodeJS and Ruby first before attempting to install the front-end tools
 
 
 
