@@ -82,14 +82,13 @@ first, so you can execute it inside the VM itself (not in your actual computer)
 #### Install Redis
 
 ```
-setup_redis.sh
+setup_redis
 ```
 
 #### Install Oracle Java
 
 ```
-vagrant ssh
-setup_oracle_java.sh
+setup_oracle_java
 ```
 
 #### Install Tomcat
@@ -98,8 +97,7 @@ Note: Be sure to install Java first before executing the tomcat installer
 
 
 ```
-vagrant ssh
-setup_tomcat.sh
+setup_tomcat
 ```
 
 Visit 
