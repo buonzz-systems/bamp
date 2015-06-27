@@ -119,9 +119,6 @@ password: admin
 setup_ruby
 ```
 
-the script will install RVM first then install Ruby itself.
-
-
 #### Install NodeJS
 
 ```
@@ -129,3 +126,11 @@ setup_nodejs
 ```
 
 the script will install NVM first then install NodeJS.
+
+#### Install Jekyll
+
+```
+setup_jekyll
+```
+
+Make sure you install Ruby and NodeJS first before attempting to install jekyll
