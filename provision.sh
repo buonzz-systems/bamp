@@ -23,3 +23,12 @@ if [ ! -d "$SITES_FOLDER" ]; then
   mkdir $SITES_FOLDER
 fi
 
+
+# regenerate ssh key
+rm /home/vagrant/.ssh/id_rsa
+rm /home/vagrant/.ssh/id_rsa.pub
+
+cat /dev/zero | ssh-keygen -f /home/vagrant/.ssh/id_rsa -q -N ""
+
+chown vagrant:vagrant /home/vagrant/.ssh/id_rsa
+chown vagrant:vagrant /home/vagrant/.ssh/id_rsa.pub
