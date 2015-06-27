@@ -68,6 +68,12 @@ The repo comes with add-on utilities to install additional softwares you might n
 * Apache Tomcat 8
 * Ruby
 * NodeJS
+* Jekyll
+* Bower
+* GruntJS
+* Yeoman
+* SASS
+* CofeeScript
 
 
 See the following easy to use installer commands. For each of the commands below, you need to 
