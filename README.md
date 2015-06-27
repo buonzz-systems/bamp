@@ -61,7 +61,7 @@ you can either use sudo or "sudo -i" to execute commands as root
 
 ### Installers
 
-The repo comes with add-on utilities to install additional softwares you might need aside from a basic LAMP stack. This allows you to easily add softwares "as-needed" instead of packing tons of things in the same basebox, thus, causing a large basebox and unnecessart cpu/memory consumption.
+The repo comes with add-on utilities to install additional softwares you might need aside from the basic LAMP stack. This allows you to easily add softwares "as-needed" instead of packing tons of things in the same basebox. This process allows you to progressively enchance your toolset and efficiently use the CPU/Memory/Disk usage of your computer.
 
 * Redis
 * Oracle Java
