@@ -57,6 +57,28 @@ The VM basically creates a virtual private LAN IP pointing into 192.168.33.60
 you can either use sudo or "sudo -i" to execute commands as root
 
 
+
+
+### Installers
+
+The repo comes with add-on utilities to install additional softwares you might need aside from a basic LAMP stack. This allows you to easily add softwares "as-needed" instead of packing tons of things in the same basebox, thus, causing a large basebox and unnecessart cpu/memory consumption.
+
+* Redis
+* Oracle Java
+* Apache Tomcat 8
+* Ruby
+* NodeJS
+
+
+See the following easy to use installer commands. For each of the commands below, you need to 
+
+```
+vagrant ssh
+```
+first, so you can execute it inside the VM itself (not in your actual computer)
+
+
+
 #### Install Redis
 
 ```

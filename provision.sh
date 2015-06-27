@@ -32,3 +32,14 @@ cat /dev/zero | ssh-keygen -f /home/vagrant/.ssh/id_rsa -q -N ""
 
 chown vagrant:vagrant /home/vagrant/.ssh/id_rsa
 chown vagrant:vagrant /home/vagrant/.ssh/id_rsa.pub
+
+
+# move the installers
+sudo cp /vagrant/installers/setup_oracle_java.sh /usr/local/bin/setup_oracle_java
+sudo chmod +x /usr/local/bin/setup_oracle_java
+
+sudo cp /vagrant/installers/setup_redis.sh /usr/local/bin/setup_redis
+sudo chmod +x /usr/local/bin/setup_redis
+
+sudo cp /vagrant/installers/setup_tomcat.sh /usr/local/bin/setup_tomcat
+sudo chmod +x /usr/local/bin/setup_tomcat

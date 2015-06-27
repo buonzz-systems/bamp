@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 #note - this requires java to be installed first, use setup_oracle_java.sh to use the built in one
 
