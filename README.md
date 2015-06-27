@@ -134,3 +134,16 @@ setup_jekyll
 ```
 
 Make sure you install Ruby and NodeJS first before attempting to install jekyll
+
+
+#### Install Bower
+
+```
+setup_bower
+```
+
+Make sure you install  NodeJS first before attempting to install.
+
+
+
+

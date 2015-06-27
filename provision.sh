@@ -52,3 +52,7 @@ sudo chmod +x /usr/local/bin/setup_nodejs
 
 sudo cp /vagrant/installers/setup_jekyll.sh /usr/local/bin/setup_jekyll
 sudo chmod +x /usr/local/bin/setup_jekyll
+
+sudo cp /vagrant/installers/setup_bower.sh /usr/local/bin/setup_bower
+sudo chmod +x /usr/local/bin/setup_bower
+
