@@ -46,3 +46,6 @@ sudo chmod +x /usr/local/bin/setup_tomcat
 
 sudo cp /vagrant/installers/setup_ruby.sh /usr/local/bin/setup_ruby
 sudo chmod +x /usr/local/bin/setup_ruby
+
+sudo cp /vagrant/installers/setup_nodejs.sh /usr/local/bin/setup_nodejs
+sudo chmod +x /usr/local/bin/setup_nodejs

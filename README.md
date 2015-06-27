@@ -120,3 +120,12 @@ setup_ruby
 ```
 
 the script will install RVM first then install Ruby itself.
+
+
+#### Install NodeJS
+
+```
+setup_nodejs
+```
+
+the script will install NVM first then install NodeJS.
