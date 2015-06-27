@@ -82,15 +82,14 @@ first, so you can execute it inside the VM itself (not in your actual computer)
 #### Install Redis
 
 ```
-vagrant ssh
-sudo sh /vagrant/installers/setup_redis.sh
+setup_redis.sh
 ```
 
 #### Install Oracle Java
 
 ```
 vagrant ssh
-sudo sh /vagrant/installers/setup_oracle_java.sh
+setup_oracle_java.sh
 ```
 
 #### Install Tomcat
@@ -100,10 +99,17 @@ Note: Be sure to install Java first before executing the tomcat installer
 
 ```
 vagrant ssh
-sudo sh /vagrant/installers/setup_tomcat.sh
+setup_tomcat.sh
 ```
 
-Visit http://bamp.dev:8080/manager/html
-to manage the applications. Admin access are:
+Visit 
+
+http://bamp.dev:8080/manager/html
+
+to manage the applications. 
+
+Admin access are:
+
 username: admin
+
 password: admin
