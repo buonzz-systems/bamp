@@ -2,7 +2,7 @@ NGINX_CONFIG='/etc/nginx/sites-available'
 NGINX_SITES_ENABLED='/etc/nginx/sites-enabled'
 WEB_DIR='/vagrant/sites'
 SED=`which sed`
-CURRENT_DIR=`/vagrant/installers`
+CURRENT_DIR='/vagrant/installers'
 
 if [ -z $1 ]; then
 	echo "No domain name given"
@@ -31,4 +31,6 @@ sudo ln -s $CONFIG $NGINX_SITES_ENABLED/$DOMAIN
 sudo nginx -s reload
 sudo service php5-fpm restart
 
-echo "Site Created for $DOMAIN"
+echo "Site Created for $DOMAIN\r"
+echo "Document root $WEB_DIR/$SITE_DIR\r"
+echo "Add \"192.168.33.60 $DOMAIN\" to your local hosts file"

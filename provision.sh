@@ -56,3 +56,6 @@ sudo chmod +x /usr/local/bin/setup_jekyll
 sudo cp /vagrant/installers/setup_frontend_tools.sh /usr/local/bin/setup_frontend_tools
 sudo chmod +x /usr/local/bin/setup_frontend_tools
 
+sudo cp /vagrant/installers/create_nginx_phpsite.sh /usr/local/bin/create_nginx_phpsite
+sudo chmod +x /usr/local/bin/create_nginx_phpsite
+
