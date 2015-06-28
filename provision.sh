@@ -59,3 +59,5 @@ sudo chmod +x /usr/local/bin/setup_frontend_tools
 sudo cp /vagrant/installers/create_nginx_phpsite.sh /usr/local/bin/create_nginx_phpsite
 sudo chmod +x /usr/local/bin/create_nginx_phpsite
 
+sudo cp /vagrant/installers/update_php.sh /usr/local/bin/update_php
+sudo chmod +x /usr/local/bin/update_php
