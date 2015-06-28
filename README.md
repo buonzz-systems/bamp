@@ -47,9 +47,24 @@ You can also access the MongoDB via http://bamp.dev/rockmongo
 username: admin
 password: admin
 
+
+### Create new PHP website
+
+To create a new web site, vagrant ssh in the VM then execute the following:
+
+```
+create_nginx_phpsite mydomain.dev
+```
+Replace the mydomain.dev with the domain you want to create. This will create a new Nginx virtual host that has document root pointing into /vagrant/sites/mydomain_dev/public folder . You then need to create that folder and put your PHP application there. To visit the site you just had created, you need to edit your local hosts file ( the one in your PC, not inside the VM) and add the entry for your domain:
+
+```
+192.168.33.60 mydomain.dev
+```
+
 #### Networking
 
 The VM basically creates a virtual private LAN IP pointing into 192.168.33.60
+
 
 
 #### Logging in as root
