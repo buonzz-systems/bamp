@@ -31,6 +31,6 @@ sudo ln -s $CONFIG $NGINX_SITES_ENABLED/$DOMAIN
 sudo nginx -s reload
 sudo service php5-fpm restart
 
-echo "Site Created for $DOMAIN\r"
-echo "Document root $WEB_DIR/$SITE_DIR\r"
+echo "PHP Site Created for $DOMAIN"
+echo "Document root $WEB_DIR/$SITE_DIR"
 echo "Add \"192.168.33.60 $DOMAIN\" to your local hosts file"
