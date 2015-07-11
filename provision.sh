@@ -7,6 +7,7 @@ sudo echo ";extension=memcache.so" > /etc/php5/cli/conf.d/memcache.ini
 
 # allow mysql to get accessed outside
 sudo sed -i "s/bind-address.*/bind-address = 0.0.0.0/" /etc/mysql/my.cnf
+sudo service mysql restart
 
 # restart php
 sudo service php5-fpm restart
