@@ -5,6 +5,9 @@ sudo apt-get install php5-memcached -y
 # fix PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
 sudo echo ";extension=memcache.so" > /etc/php5/cli/conf.d/memcache.ini
 
+# allow mysql to get accessed outside
+sudo sed -i "s/bind-address.*/bind-address = 0.0.0.0/" /etc/mysql/my.cnf
+
 # restart php
 sudo service php5-fpm restart
 
