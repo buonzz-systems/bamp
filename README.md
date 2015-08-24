@@ -174,5 +174,17 @@ setup_frontend_tools
 Make sure you install  NodeJS and Ruby first before attempting to install the front-end tools
 
 
+# Installing Maven
 
+```
+vagrant ssh
+sudo apt-get install maven
+```
 
+# Installing Heroku Toolbelt
+
+```
+vagrant ssh
+wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+heroku login
+```
