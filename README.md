@@ -154,7 +154,13 @@ the script will install NVM first then install NodeJS.
 setup_jekyll
 ```
 
-Make sure you install Ruby and NodeJS first before attempting to install jekyll
+Make sure you install Ruby and NodeJS first before attempting to install jekyll.
+To access your jekyll site from your host computer, you need to specify the host parameter:
+
+```
+jekyll serve -H 0.0.0.0
+```
+You can now access jekyll through http://bamp.dev:4000
 
 
 #### Install Front-End Tools
