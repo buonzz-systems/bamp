@@ -37,6 +37,14 @@ In the hostname configuration, set it to *bamp.dev* <br/>
 
 Then make sure the "Use virtualhost naming for apps" checkbox is checked.
 
+#### Install the Toolbelt
+
+the toolbelt is basically the client you can use to execute remote commands to the server
+
+```
+npm install -g dokku-toolbelt
+```
+
 
 ### Usage
 
@@ -47,10 +55,4 @@ Visit  http://bamp.dev to get started.
 #### Networking
 
 The VM basically creates a virtual private LAN IP pointing into 192.168.33.60
-
-
-### Install the Toolbelt
-
-```
-npm install -g dokku-toolbelt
-```
+ 
